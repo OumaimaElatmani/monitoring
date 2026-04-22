@@ -1,5 +1,5 @@
 # monitoring
-oumaima@Oumaima:~/dockercomposeProject/monitoring/monitoring$ tree
+--bash 
 .
 ├── config
 │   ├── config.alloy
@@ -12,3 +12,4 @@ oumaima@Oumaima:~/dockercomposeProject/monitoring/monitoring$ tree
 │   └── tempo
 │       └── traces
 └── docker-compose.yml
+--
