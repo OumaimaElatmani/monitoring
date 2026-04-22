@@ -1,0 +1,11 @@
+multitenancy_enabled: false
+blocks_storage:
+  backend: filesystem
+  filesystem:
+    dir: /data/mimir/blocks
+ingester:
+  # Do not put 'tsdb' directly here if it's not supported in your version's schema
+  # Use standard ingester configuration
+  ring:
+    kvstore:
+      store: memberlist
