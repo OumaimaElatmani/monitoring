@@ -1,1 +1,14 @@
 # monitoring
+oumaima@Oumaima:~/dockercomposeProject/monitoring/monitoring$ tree
+.
+├── config
+│   ├── config.alloy
+│   ├── loki.yaml
+│   ├── mimir.yaml
+│   ├── prometheus.yml
+│   └── tempo.yaml
+├── dashboards
+├── data
+│   └── tempo
+│       └── traces
+└── docker-compose.yml
