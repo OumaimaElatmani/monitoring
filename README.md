@@ -1,5 +1,5 @@
 # monitoring
---bash 
+--- bash 
 .
 ├── config
 │   ├── config.alloy
@@ -12,4 +12,4 @@
 │   └── tempo
 │       └── traces
 └── docker-compose.yml
---
+---
